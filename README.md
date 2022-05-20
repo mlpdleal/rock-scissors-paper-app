@@ -1,2 +1,2 @@
 # rock-scizors-paper-app
-Rock, Scizors and Paper app game using SwiftUI Framework
+Rock, Scissors and Paper app game using SwiftUI Framework.
