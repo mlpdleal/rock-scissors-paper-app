@@ -88,7 +88,10 @@ struct ContentView: View {
             } label: {
                 Text("OK")
             }
-        }.alert("Finish", isPresented: $showingReset){
+        } message: {
+            Text("\(gameOptions[myOption].uppercased()) vs \(gameOptions[pcOption].uppercased())")
+        }
+        .alert("Finish", isPresented: $showingReset){
             Button("OK", action: resetScore)
         } message: {
             Text("Your final score is \(score)")
@@ -121,7 +124,7 @@ struct ContentView: View {
             scoreTitle = "You lose this match"
             score -= 1
         } else {
-            scoreTitle = "tied match"
+            scoreTitle = "Tied match"
             score = score
         }
         
