@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA07CD4128371CA40009F59E /* RockScizorsPaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07CD4028371CA40009F59E /* RockScizorsPaperApp.swift */; };
+		EA07CD4128371CA40009F59E /* RockScissorsPaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07CD4028371CA40009F59E /* RockScissorsPaperApp.swift */; };
 		EA07CD4328371CA40009F59E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07CD4228371CA40009F59E /* ContentView.swift */; };
 		EA07CD4528371CA40009F59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA07CD4428371CA40009F59E /* Assets.xcassets */; };
 		EA07CD4828371CA40009F59E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA07CD4728371CA40009F59E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA07CD3D28371CA40009F59E /* RockScizorsPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockScizorsPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA07CD4028371CA40009F59E /* RockScizorsPaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockScizorsPaperApp.swift; sourceTree = "<group>"; };
+		EA07CD3D28371CA40009F59E /* RSPGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07CD4028371CA40009F59E /* RockScissorsPaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockScissorsPaperApp.swift; sourceTree = "<group>"; };
 		EA07CD4228371CA40009F59E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA07CD4428371CA40009F59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA07CD4728371CA40009F59E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		EA07CD3428371CA40009F59E = {
 			isa = PBXGroup;
 			children = (
-				EA07CD3F28371CA40009F59E /* RockScizorsPaper */,
+				EA07CD3F28371CA40009F59E /* RockScissorsPaper */,
 				EA07CD3E28371CA40009F59E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		EA07CD3E28371CA40009F59E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA07CD3D28371CA40009F59E /* RockScizorsPaper.app */,
+				EA07CD3D28371CA40009F59E /* RSPGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA07CD3F28371CA40009F59E /* RockScizorsPaper */ = {
+		EA07CD3F28371CA40009F59E /* RockScissorsPaper */ = {
 			isa = PBXGroup;
 			children = (
-				EA07CD4028371CA40009F59E /* RockScizorsPaperApp.swift */,
+				EA07CD4028371CA40009F59E /* RockScissorsPaperApp.swift */,
 				EA07CD4228371CA40009F59E /* ContentView.swift */,
 				EA07CD4428371CA40009F59E /* Assets.xcassets */,
 				EA07CD4628371CA40009F59E /* Preview Content */,
 			);
-			path = RockScizorsPaper;
+			path = RockScissorsPaper;
 			sourceTree = "<group>";
 		};
 		EA07CD4628371CA40009F59E /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA07CD3C28371CA40009F59E /* RockScizorsPaper */ = {
+		EA07CD3C28371CA40009F59E /* RockScissorsPaper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA07CD4B28371CA40009F59E /* Build configuration list for PBXNativeTarget "RockScizorsPaper" */;
+			buildConfigurationList = EA07CD4B28371CA40009F59E /* Build configuration list for PBXNativeTarget "RockScissorsPaper" */;
 			buildPhases = (
 				EA07CD3928371CA40009F59E /* Sources */,
 				EA07CD3A28371CA40009F59E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = RockScizorsPaper;
+			name = RockScissorsPaper;
 			productName = RockScizorsPaper;
-			productReference = EA07CD3D28371CA40009F59E /* RockScizorsPaper.app */;
+			productReference = EA07CD3D28371CA40009F59E /* RSPGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA07CD3828371CA40009F59E /* Build configuration list for PBXProject "RockScizorsPaper" */;
+			buildConfigurationList = EA07CD3828371CA40009F59E /* Build configuration list for PBXProject "RockScissorsPaper" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA07CD3C28371CA40009F59E /* RockScizorsPaper */,
+				EA07CD3C28371CA40009F59E /* RockScissorsPaper */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA07CD4328371CA40009F59E /* ContentView.swift in Sources */,
-				EA07CD4128371CA40009F59E /* RockScizorsPaperApp.swift in Sources */,
+				EA07CD4128371CA40009F59E /* RockScissorsPaperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RockScizorsPaper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RockScissorsPaper/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Q4G5PRJJ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,8 +280,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoellealdeveloper.RockScizorsPaper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoellealdeveloper.RockScissorsPaper;
+				PRODUCT_NAME = RSPGame;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RockScizorsPaper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RockScissorsPaper/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Q4G5PRJJ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,8 +309,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoellealdeveloper.RockScizorsPaper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoellealdeveloper.RockScissorsPaper;
+				PRODUCT_NAME = RSPGame;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA07CD3828371CA40009F59E /* Build configuration list for PBXProject "RockScizorsPaper" */ = {
+		EA07CD3828371CA40009F59E /* Build configuration list for PBXProject "RockScissorsPaper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA07CD4928371CA40009F59E /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA07CD4B28371CA40009F59E /* Build configuration list for PBXNativeTarget "RockScizorsPaper" */ = {
+		EA07CD4B28371CA40009F59E /* Build configuration list for PBXNativeTarget "RockScissorsPaper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA07CD4C28371CA40009F59E /* Debug */,
